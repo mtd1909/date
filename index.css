@@ -30,6 +30,35 @@ h1 {
   grid-row-gap: 10px;
   margin-top: 3.6rem;
 }
+@media (max-width: 575px) {
+  #wrapper {
+    margin-top: 0;
+  }
+  #music {
+    display: none;
+  }
+  #info {
+    margin-top: 0 !important;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  .two p {
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  .one p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  time {
+    font-size: 32px;
+  }
+  #clock {
+    padding-top: 10px !important;
+    padding-bottom: 5px !important;
+  }
+}
 
 #clock-box, #info {
   grid-column: span 3;
