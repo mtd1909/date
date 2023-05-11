@@ -152,3 +152,7 @@ footer {
         padding-bottom: 2rem;
   }
 }
+
+img {
+  object-fit: cover;
+}
